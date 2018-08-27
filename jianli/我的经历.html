@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<title>关于我</title>
+	<style type="text/css">
+	    body{
+           background-image:url(目录1.jpg);
+           background-position:center; 
+           background-repeat:repeat-y；
+        }
+	    .page{
+	        text-align:center;
+		    margin-top:50px;
+	    }	 
+	
+        .page a,.page span{ 
+	        text-decoration: none;  
+		    border:1px solid #f9d52b;  
+		    padding: 5px 7px; 
+		    color: #767675;  
+            cursor:pointer;		 
+	    }
+		.page a:hover,.page span:hover{
+		    color:red;
+		}
+		 .view{
+		       margin:10px auto;
+			   width:1200px;
+			   height:600px;
+			   background-color:#e0e0e0;
+		     
+		   }
+		   .imgs{
+		       width:1200px;
+			   height:120px;
+			   margin:10px auto;
+			   }
+		   .imgs img{
+               width:100px;
+               height:100px;
+               float:left;
+               margin-left:10px;
+               margin-top:10px;
+            }			   
+	</style>
+</head>
+
+<body>
+    
+
+    <div class="page">
+	   
+	   <a href ="index.html">目录</a>
+	   <a href ="关于我.html">关于我</a>
+	   <a href ="我的技能.html">我的技能与职业规划</a>
+	   
+	   
+	   
+	<div/>   
+	
+      <div class="view" id="view">
+	      <img id="img" src="" width="1200" height="600"/>
+	  </div>	  
+	  <div class="imgs">
+	      <img src="images/img_5.jpg" onclick="click_img(5);"/>
+		  <img src="images/img_1.jpg" onclick="click_img(1);"/>
+		  <img src="images/img_2.jpg" onclick="click_img(2);"/>
+		  <img src="images/img_3.jpg" onclick="click_img(3);"/>
+		  <img src="images/img_4.jpg" onclick="click_img(4);"/>
+      </div>
+	 <script>
+	     window.onload = function(){
+		 
+	        }
+	        function click_img(n){
+				var img = document.images[0];
+				img.src="images/img_"+n+".jpg";
+				
+			}	 
+	 </script>
+                  
+                    <a href="#" rel="nofollow">回到顶部</a> 
+					
+                   
+                    <a href="#">回到顶部</a></p>	
+                </div>
+
+	
+	 
+<p>以上图片为待补充的浏览界面，暂时用图片占位</p>
+<p>。</p>
